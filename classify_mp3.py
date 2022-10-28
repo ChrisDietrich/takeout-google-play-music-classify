@@ -42,7 +42,8 @@ logger.propagate = False
 count = 0
 
 # If True, will not rename or remove. Useful for testing.
-dryrun = True
+dryrun = False
+#dryrun = True
 
 
 def get_data_from_filename(file_path):
